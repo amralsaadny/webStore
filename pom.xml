@@ -52,6 +52,11 @@
 			<artifactId>camel-spring-boot-starter</artifactId>
 			<version>4.8.0</version>
 		</dependency>
+		<dependency>
+    <groupId>org.hibernate.orm</groupId>
+    <artifactId>hibernate-community-dialects</artifactId>
+</dependency>
+
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
