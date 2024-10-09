@@ -12,12 +12,13 @@ import lombok.*;
 @NoArgsConstructor
 @ToString
 @Entity
-public class Customers {
-    @GeneratedValue(strategy = GenerationType.AUTO)
+public class Products {
+     @GeneratedValue(strategy = GenerationType.AUTO)
     @Id
-    private String customerID;
-    private String userName;
-    private String email;
-    private String password;
-
+    int id;
+     float price;
+     String name;
+     String categories;
+     String threeDModel;
+     String numberInStorage;
 }
